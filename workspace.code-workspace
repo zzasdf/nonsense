@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\spider\\spider\\spider"
+		},
+		{
+			"path": "..\\..\\wikisql\\WikiSQL-master\\WikiSQL-master"
+		}
+	],
+	"settings": {}
+}

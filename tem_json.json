@@ -1,0 +1,1058 @@
+[
+   {
+      "db_id": "1_10015132_11",
+      "query": "SELECT col3 FROM table_1_10015132_11 WHERE col5 = 'Butler CC (KS)' ",
+      "query_toks": [
+         "SELECT",
+         "col3",
+         "FROM",
+         "table_1_10015132_11",
+         "WHERE",
+         "col5",
+         "=",
+         "'Butler",
+         "CC",
+         "(",
+         "KS",
+         ")",
+         "'"
+      ],
+      "query_toks_no_value": [
+         "select",
+         "col3",
+         "from",
+         "table_1_10015132_11",
+         "where",
+         "col5",
+         "=",
+         "value"
+      ],
+      "question": "What position does the player who played for butler cc (ks) play?",
+      "question_toks": [
+         "What",
+         "position",
+         "does",
+         "the",
+         "player",
+         "who",
+         "played",
+         "for",
+         "butler",
+         "cc",
+         "(",
+         "ks",
+         ")",
+         "play",
+         "?"
+      ],
+      "sql": {
+         "from": {
+            "table_units": [
+               [
+                  "table_unit",
+                  0
+               ]
+            ],
+            "conds": []
+         },
+         "select": [
+            false,
+            [
+               [
+                  0,
+                  [
+                     0,
+                     [
+                        0,
+                        4,
+                        false
+                     ],
+                     null
+                  ]
+               ]
+            ]
+         ],
+         "where": [
+            [
+               false,
+               2,
+               [
+                  0,
+                  [
+                     0,
+                     6,
+                     false
+                  ],
+                  null
+               ],
+               "\"Butler CC (KS)\"",
+               null
+            ]
+         ],
+         "groupBy": [],
+         "having": [],
+         "orderBy": [],
+         "limit": null,
+         "intersect": null,
+         "union": null,
+         "except": null
+      }
+   },
+   {
+      "db_id": "1_10015132_11",
+      "query": "SELECT COUNT(col5) FROM table_1_10015132_11 WHERE col1 = '3' ",
+      "query_toks": [
+         "SELECT",
+         "COUNT",
+         "(",
+         "col5",
+         ")",
+         "FROM",
+         "table_1_10015132_11",
+         "WHERE",
+         "col1",
+         "=",
+         "'",
+         "3",
+         "'"
+      ],
+      "query_toks_no_value": [
+         "select",
+         "count",
+         "(",
+         "col5",
+         ")",
+         "from",
+         "table_1_10015132_11",
+         "where",
+         "col1",
+         "=",
+         "value"
+      ],
+      "question": "How many schools did player number 3 play at?",
+      "question_toks": [
+         "How",
+         "many",
+         "schools",
+         "did",
+         "player",
+         "number",
+         "3",
+         "play",
+         "at",
+         "?"
+      ],
+      "sql": {
+         "from": {
+            "table_units": [
+               [
+                  "table_unit",
+                  0
+               ]
+            ],
+            "conds": []
+         },
+         "select": [
+            false,
+            [
+               [
+                  3,
+                  [
+                     0,
+                     [
+                        0,
+                        6,
+                        false
+                     ],
+                     null
+                  ]
+               ]
+            ]
+         ],
+         "where": [
+            [
+               false,
+               2,
+               [
+                  0,
+                  [
+                     0,
+                     2,
+                     false
+                  ],
+                  null
+               ],
+               "\"3\"",
+               null
+            ]
+         ],
+         "groupBy": [],
+         "having": [],
+         "orderBy": [],
+         "limit": null,
+         "intersect": null,
+         "union": null,
+         "except": null
+      }
+   },
+   {
+      "db_id": "1_10015132_11",
+      "query": "SELECT col5 FROM table_1_10015132_11 WHERE col1 = '21' ",
+      "query_toks": [
+         "SELECT",
+         "col5",
+         "FROM",
+         "table_1_10015132_11",
+         "WHERE",
+         "col1",
+         "=",
+         "'21",
+         "'"
+      ],
+      "query_toks_no_value": [
+         "select",
+         "col5",
+         "from",
+         "table_1_10015132_11",
+         "where",
+         "col1",
+         "=",
+         "value"
+      ],
+      "question": "What school did player number 21 play for?",
+      "question_toks": [
+         "What",
+         "school",
+         "did",
+         "player",
+         "number",
+         "21",
+         "play",
+         "for",
+         "?"
+      ],
+      "sql": {
+         "from": {
+            "table_units": [
+               [
+                  "table_unit",
+                  0
+               ]
+            ],
+            "conds": []
+         },
+         "select": [
+            false,
+            [
+               [
+                  0,
+                  [
+                     0,
+                     [
+                        0,
+                        6,
+                        false
+                     ],
+                     null
+                  ]
+               ]
+            ]
+         ],
+         "where": [
+            [
+               false,
+               2,
+               [
+                  0,
+                  [
+                     0,
+                     2,
+                     false
+                  ],
+                  null
+               ],
+               "\"21\"",
+               null
+            ]
+         ],
+         "groupBy": [],
+         "having": [],
+         "orderBy": [],
+         "limit": null,
+         "intersect": null,
+         "union": null,
+         "except": null
+      }
+   },
+   {
+      "db_id": "1_10015132_11",
+      "query": "SELECT col0 FROM table_1_10015132_11 WHERE col1 = '42' ",
+      "query_toks": [
+         "SELECT",
+         "col0",
+         "FROM",
+         "table_1_10015132_11",
+         "WHERE",
+         "col1",
+         "=",
+         "'42",
+         "'"
+      ],
+      "query_toks_no_value": [
+         "select",
+         "col0",
+         "from",
+         "table_1_10015132_11",
+         "where",
+         "col1",
+         "=",
+         "value"
+      ],
+      "question": "Who is the player that wears number 42?",
+      "question_toks": [
+         "Who",
+         "is",
+         "the",
+         "player",
+         "that",
+         "wears",
+         "number",
+         "42",
+         "?"
+      ],
+      "sql": {
+         "from": {
+            "table_units": [
+               [
+                  "table_unit",
+                  0
+               ]
+            ],
+            "conds": []
+         },
+         "select": [
+            false,
+            [
+               [
+                  0,
+                  [
+                     0,
+                     [
+                        0,
+                        1,
+                        false
+                     ],
+                     null
+                  ]
+               ]
+            ]
+         ],
+         "where": [
+            [
+               false,
+               2,
+               [
+                  0,
+                  [
+                     0,
+                     2,
+                     false
+                  ],
+                  null
+               ],
+               "\"42\"",
+               null
+            ]
+         ],
+         "groupBy": [],
+         "having": [],
+         "orderBy": [],
+         "limit": null,
+         "intersect": null,
+         "union": null,
+         "except": null
+      }
+   },
+   {
+      "db_id": "1_10015132_11",
+      "query": "SELECT col0 FROM table_1_10015132_11 WHERE col3 = 'Guard' AND col4 = '1996-97' ",
+      "query_toks": [
+         "SELECT",
+         "col0",
+         "FROM",
+         "table_1_10015132_11",
+         "WHERE",
+         "col3",
+         "=",
+         "'Guard",
+         "'",
+         "AND",
+         "col4",
+         "=",
+         "'1996-97",
+         "'"
+      ],
+      "query_toks_no_value": [
+         "select",
+         "col0",
+         "from",
+         "table_1_10015132_11",
+         "where",
+         "col3",
+         "=",
+         "valueand",
+         "col4",
+         "=",
+         "value"
+      ],
+      "question": "What player played guard for toronto in 1996-97?",
+      "question_toks": [
+         "What",
+         "player",
+         "played",
+         "guard",
+         "for",
+         "toronto",
+         "in",
+         "1996-97",
+         "?"
+      ],
+      "sql": {
+         "from": {
+            "table_units": [
+               [
+                  "table_unit",
+                  0
+               ]
+            ],
+            "conds": []
+         },
+         "select": [
+            false,
+            [
+               [
+                  0,
+                  [
+                     0,
+                     [
+                        0,
+                        1,
+                        false
+                     ],
+                     null
+                  ]
+               ]
+            ]
+         ],
+         "where": [
+            [
+               false,
+               2,
+               [
+                  0,
+                  [
+                     0,
+                     4,
+                     false
+                  ],
+                  null
+               ],
+               "\"Guard\"",
+               null
+            ],
+            "and",
+            [
+               false,
+               2,
+               [
+                  0,
+                  [
+                     0,
+                     5,
+                     false
+                  ],
+                  null
+               ],
+               "\"1996-97\"",
+               null
+            ]
+         ],
+         "groupBy": [],
+         "having": [],
+         "orderBy": [],
+         "limit": null,
+         "intersect": null,
+         "union": null,
+         "except": null
+      }
+   },
+   {
+      "db_id": "1_10015132_9",
+      "query": "SELECT col0 FROM table_1_10015132_9 WHERE col5 = 'Westchester High School' ",
+      "query_toks": [
+         "SELECT",
+         "col0",
+         "FROM",
+         "table_1_10015132_9",
+         "WHERE",
+         "col5",
+         "=",
+         "'Westchester",
+         "High",
+         "School",
+         "'"
+      ],
+      "query_toks_no_value": [
+         "select",
+         "col0",
+         "from",
+         "table_1_10015132_9",
+         "where",
+         "col5",
+         "=",
+         "value"
+      ],
+      "question": "Who are all of the players on the Westchester High School club team?",
+      "question_toks": [
+         "Who",
+         "are",
+         "all",
+         "of",
+         "the",
+         "players",
+         "on",
+         "the",
+         "Westchester",
+         "High",
+         "School",
+         "club",
+         "team",
+         "?"
+      ],
+      "sql": {
+         "from": {
+            "table_units": [
+               [
+                  "table_unit",
+                  0
+               ]
+            ],
+            "conds": []
+         },
+         "select": [
+            false,
+            [
+               [
+                  0,
+                  [
+                     0,
+                     [
+                        0,
+                        1,
+                        false
+                     ],
+                     null
+                  ]
+               ]
+            ]
+         ],
+         "where": [
+            [
+               false,
+               2,
+               [
+                  0,
+                  [
+                     0,
+                     6,
+                     false
+                  ],
+                  null
+               ],
+               "\"Westchester High School\"",
+               null
+            ]
+         ],
+         "groupBy": [],
+         "having": [],
+         "orderBy": [],
+         "limit": null,
+         "intersect": null,
+         "union": null,
+         "except": null
+      }
+   },
+   {
+      "db_id": "1_10015132_9",
+      "query": "SELECT col5 FROM table_1_10015132_9 WHERE col0 = 'Amir Johnson' ",
+      "query_toks": [
+         "SELECT",
+         "col5",
+         "FROM",
+         "table_1_10015132_9",
+         "WHERE",
+         "col0",
+         "=",
+         "'Amir",
+         "Johnson",
+         "'"
+      ],
+      "query_toks_no_value": [
+         "select",
+         "col5",
+         "from",
+         "table_1_10015132_9",
+         "where",
+         "col0",
+         "=",
+         "value"
+      ],
+      "question": "What school/club team is Amir Johnson on?",
+      "question_toks": [
+         "What",
+         "school/club",
+         "team",
+         "is",
+         "Amir",
+         "Johnson",
+         "on",
+         "?"
+      ],
+      "sql": {
+         "from": {
+            "table_units": [
+               [
+                  "table_unit",
+                  0
+               ]
+            ],
+            "conds": []
+         },
+         "select": [
+            false,
+            [
+               [
+                  0,
+                  [
+                     0,
+                     [
+                        0,
+                        6,
+                        false
+                     ],
+                     null
+                  ]
+               ]
+            ]
+         ],
+         "where": [
+            [
+               false,
+               2,
+               [
+                  0,
+                  [
+                     0,
+                     1,
+                     false
+                  ],
+                  null
+               ],
+               "\"Amir Johnson\"",
+               null
+            ]
+         ],
+         "groupBy": [],
+         "having": [],
+         "orderBy": [],
+         "limit": null,
+         "intersect": null,
+         "union": null,
+         "except": null
+      }
+   },
+   {
+      "db_id": "1_10015132_9",
+      "query": "SELECT COUNT(col1) FROM table_1_10015132_9 WHERE col4 = '2005-06' ",
+      "query_toks": [
+         "SELECT",
+         "COUNT",
+         "(",
+         "col1",
+         ")",
+         "FROM",
+         "table_1_10015132_9",
+         "WHERE",
+         "col4",
+         "=",
+         "'2005-06",
+         "'"
+      ],
+      "query_toks_no_value": [
+         "select",
+         "count",
+         "(",
+         "col1",
+         ")",
+         "from",
+         "table_1_10015132_9",
+         "where",
+         "col4",
+         "=",
+         "value"
+      ],
+      "question": "What are the total amount of numbers on the Toronto team in 2005-06?",
+      "question_toks": [
+         "What",
+         "are",
+         "the",
+         "total",
+         "amount",
+         "of",
+         "numbers",
+         "on",
+         "the",
+         "Toronto",
+         "team",
+         "in",
+         "2005-06",
+         "?"
+      ],
+      "sql": {
+         "from": {
+            "table_units": [
+               [
+                  "table_unit",
+                  0
+               ]
+            ],
+            "conds": []
+         },
+         "select": [
+            false,
+            [
+               [
+                  3,
+                  [
+                     0,
+                     [
+                        0,
+                        2,
+                        false
+                     ],
+                     null
+                  ]
+               ]
+            ]
+         ],
+         "where": [
+            [
+               false,
+               2,
+               [
+                  0,
+                  [
+                     0,
+                     5,
+                     false
+                  ],
+                  null
+               ],
+               "\"2005-06\"",
+               null
+            ]
+         ],
+         "groupBy": [],
+         "having": [],
+         "orderBy": [],
+         "limit": null,
+         "intersect": null,
+         "union": null,
+         "except": null
+      }
+   },
+   {
+      "db_id": "1_10015132_9",
+      "query": "SELECT COUNT(col3) FROM table_1_10015132_9 WHERE col4 = '2006-07' ",
+      "query_toks": [
+         "SELECT",
+         "COUNT",
+         "(",
+         "col3",
+         ")",
+         "FROM",
+         "table_1_10015132_9",
+         "WHERE",
+         "col4",
+         "=",
+         "'2006-07",
+         "'"
+      ],
+      "query_toks_no_value": [
+         "select",
+         "count",
+         "(",
+         "col3",
+         ")",
+         "from",
+         "table_1_10015132_9",
+         "where",
+         "col4",
+         "=",
+         "value"
+      ],
+      "question": "What are the total number of positions on the Toronto team in 2006-07?",
+      "question_toks": [
+         "What",
+         "are",
+         "the",
+         "total",
+         "number",
+         "of",
+         "positions",
+         "on",
+         "the",
+         "Toronto",
+         "team",
+         "in",
+         "2006-07",
+         "?"
+      ],
+      "sql": {
+         "from": {
+            "table_units": [
+               [
+                  "table_unit",
+                  0
+               ]
+            ],
+            "conds": []
+         },
+         "select": [
+            false,
+            [
+               [
+                  3,
+                  [
+                     0,
+                     [
+                        0,
+                        4,
+                        false
+                     ],
+                     null
+                  ]
+               ]
+            ]
+         ],
+         "where": [
+            [
+               false,
+               2,
+               [
+                  0,
+                  [
+                     0,
+                     5,
+                     false
+                  ],
+                  null
+               ],
+               "\"2006-07\"",
+               null
+            ]
+         ],
+         "groupBy": [],
+         "having": [],
+         "orderBy": [],
+         "limit": null,
+         "intersect": null,
+         "union": null,
+         "except": null
+      }
+   },
+   {
+      "db_id": "1_10015132_9",
+      "query": "SELECT col2 FROM table_1_10015132_9 WHERE col5 = 'Fresno State' ",
+      "query_toks": [
+         "SELECT",
+         "col2",
+         "FROM",
+         "table_1_10015132_9",
+         "WHERE",
+         "col5",
+         "=",
+         "'Fresno",
+         "State",
+         "'"
+      ],
+      "query_toks_no_value": [
+         "select",
+         "col2",
+         "from",
+         "table_1_10015132_9",
+         "where",
+         "col5",
+         "=",
+         "value"
+      ],
+      "question": "What are the nationality of the players on the Fresno State school/club team?",
+      "question_toks": [
+         "What",
+         "are",
+         "the",
+         "nationality",
+         "of",
+         "the",
+         "players",
+         "on",
+         "the",
+         "Fresno",
+         "State",
+         "school/club",
+         "team",
+         "?"
+      ],
+      "sql": {
+         "from": {
+            "table_units": [
+               [
+                  "table_unit",
+                  0
+               ]
+            ],
+            "conds": []
+         },
+         "select": [
+            false,
+            [
+               [
+                  0,
+                  [
+                     0,
+                     [
+                        0,
+                        3,
+                        false
+                     ],
+                     null
+                  ]
+               ]
+            ]
+         ],
+         "where": [
+            [
+               false,
+               2,
+               [
+                  0,
+                  [
+                     0,
+                     6,
+                     false
+                  ],
+                  null
+               ],
+               "\"Fresno State\"",
+               null
+            ]
+         ],
+         "groupBy": [],
+         "having": [],
+         "orderBy": [],
+         "limit": null,
+         "intersect": null,
+         "union": null,
+         "except": null
+      }
+   },
+   {
+      "db_id": "1_10015132_9",
+      "query": "SELECT col5 FROM table_1_10015132_9 WHERE col0 = 'Trey Johnson' ",
+      "query_toks": [
+         "SELECT",
+         "col5",
+         "FROM",
+         "table_1_10015132_9",
+         "WHERE",
+         "col0",
+         "=",
+         "'Trey",
+         "Johnson",
+         "'"
+      ],
+      "query_toks_no_value": [
+         "select",
+         "col5",
+         "from",
+         "table_1_10015132_9",
+         "where",
+         "col0",
+         "=",
+         "value"
+      ],
+      "question": "What school/club team is Trey Johnson on?",
+      "question_toks": [
+         "What",
+         "school/club",
+         "team",
+         "is",
+         "Trey",
+         "Johnson",
+         "on",
+         "?"
+      ],
+      "sql": {
+         "from": {
+            "table_units": [
+               [
+                  "table_unit",
+                  0
+               ]
+            ],
+            "conds": []
+         },
+         "select": [
+            false,
+            [
+               [
+                  0,
+                  [
+                     0,
+                     [
+                        0,
+                        6,
+                        false
+                     ],
+                     null
+                  ]
+               ]
+            ]
+         ],
+         "where": [
+            [
+               false,
+               2,
+               [
+                  0,
+                  [
+                     0,
+                     1,
+                     false
+                  ],
+                  null
+               ],
+               "\"Trey Johnson\"",
+               null
+            ]
+         ],
+         "groupBy": [],
+         "having": [],
+         "orderBy": [],
+         "limit": null,
+         "intersect": null,
+         "union": null,
+         "except": null
+      }
+   }
+]
